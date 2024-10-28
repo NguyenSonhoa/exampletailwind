@@ -1,0 +1,45 @@
+.github {
+    margin-left: 74rem;
+    scale: 140%;
+    margin-top: 23.5px;
+}
+
+.info_text {
+    font-family: rubik;
+    width: 300px;
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+
+.dark\:info_text:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(0, 0, 0 / var(--tw-text-opacity));
+  }
+
+.box_info {
+    padding: 100px;
+}
+
+.tailwind {
+    transition: all 0.3s;
+}
+
+.github2 {
+    transition: all 0.3s;
+    margin-top: -15px;
+}
+
+.logo2 {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.logosonatech {
+    transition: 0.3s all;
+}
+
+.logosonatech:hover .logo2 {
+    opacity: 1;
+    transition: 0.3s all;
+}
